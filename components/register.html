@@ -1,23 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
 
-    <form method="POST">
-        <select>
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="me.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>About Me | Register</title>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<h1 style="text-align: center;">Registration Form</h1>
+    <form style="margin: 20px;" method="POST">
+        <div class="form-group">
+        Type of Organisation:
+        <select class="form-control">
             <option >Company</option>
-            <option >Student</option>
+            <option >Artist</option>
             <option >Business</option>
         </select>
-
-        Name:<input type='text' ><br >
-        Username:<input type='text' ><br >
-        Profile Picture<input type='file' ><br >
-        Photos/Company Photos 1:<input type='file' accept='image' ><br >
-        Photos/Company Photos 2:<input type='file' accept='image' ><br >
-        Photos/Company Photos 3:<input type='file' accept='image' ><br >
-        Photos/Company Photos 4:<input type='file' accept='image' ><br >
-        Email:<input type='text' ><br >
-        Password:<input type='text' ><br >
-        Linkedin Profile URL:<input type='text' ><br >
-        Github Profile URL<input type='text' ><br >
-        <input type='submit' >
+        </div>
+        
+        <div class="form-group">
+        Name:<input type='text' class="form-control" >
+        </div>
+        <div class="form-group">
+        Username:<input type='text' class="form-control" ></div>
+        <div class="form-group">
+        Profile Picture<input type='file' class="form-control" ></div>
+        <div class="form-group">
+        Photos/Company Photos 1:<input type='file' accept='image' class="form-control" ></div>
+        <div class="form-group">
+        Photos/Company Photos 2:<input type='file' accept='image' class="form-control" ></div>
+        <div class="form-group">
+        Photos/Company Photos 3:<input type='file' accept='image' class="form-control" ></div>
+        <div class="form-group">
+        Photos/Company Photos 4:<input type='file' accept='image' class="form-control" ></div>
+        <div class="form-group">
+        Email:<input type='text' class="form-control" ></div>
+        <div class="form-group">
+        Password:<input type='password' class="form-control"></div>
+        <div class="form-group">
+        Linkedin Profile URL:<input type='text' class="form-control" ></div>
+        <div class="form-group">
+        Github Profile URL<input type='text' class="form-control" >
+    </div>
+        <div class="form-group">
+       <input type='submit' class="form-control btn btn-success" >
+   </div>
 
 
     </form>
+</body>
+</html>
